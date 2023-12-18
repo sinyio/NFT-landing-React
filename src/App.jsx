@@ -52,7 +52,7 @@ const App = () => {
     const nav = document.getElementsByTagName("nav");
     nav[0].style.transform = "none";
   }, 1500);
-  
+
   return (
     <div data-theme={theme} className="app-container">
       <ScrollToTop />
